@@ -35,14 +35,14 @@ cp .env.example .env
 
 ### 3) Ingest + index
 ```bash
-python scripts/rebuild_index.py
+python -m scripts.rebuild_index
 ```
 This will fetch small sample slices from OpenTargets, ClinicalTrials.gov, PubMed (and stub from EU CTIS), normalize, chunk, embed, and build a FAISS index under `data/index/`.
 
 
 ### 4) Run the app
 ```bash
-python -m src.rag.app
+python -m src.RAG.app
 ```
 Open the local Gradio link and start chatting.
 

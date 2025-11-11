@@ -2,8 +2,8 @@ import os
 import requests
 import gradio as gr
 from typing import List, Dict, Any
-from src.rag.prompt import SYSTEM_PROMPT
-from src.rag.retriever import Retriever
+from src.RAG.prompt import SYSTEM_PROMPT
+from src.RAG.retriever import Retriever
 
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "biomistral")
