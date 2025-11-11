@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Environment variables ---
+.env
+*.env
+
+# --- Build & distribution ---
+build/
+dist/
+*.egg-info/
+
+# --- Data files ---
+data/raw/
+data/clean/
+!data/*/.gitkeep
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Models ---
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
