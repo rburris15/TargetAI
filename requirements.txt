@@ -1,0 +1,26 @@
+# Core
+requests
+python-dotenv
+pydantic
+pandas
+numpy
+tqdm
+beautifulsoup4
+
+
+# Embeddings / Reranker
+sentence-transformers
+faiss-cpu
+FlagEmbedding
+
+
+# LLM client (Ollama)
+ollama
+
+
+# UI
+gradio
+
+
+# Optional utils
+scikit-learn
